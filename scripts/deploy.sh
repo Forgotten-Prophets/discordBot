@@ -24,6 +24,7 @@ contexts:
     context:
       cluster: vps-fp-discord-bot
       user: fp-discord-bot
+      namespace: fp-discord-bot
 current-context: bot
 EOF
 
