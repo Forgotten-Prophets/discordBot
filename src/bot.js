@@ -16,8 +16,9 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 
+    let mainChannelId = '231181456108421121';
     console.log("I am reborn!");
-    client.guilds.array()[0].defaultChannel.send("Ishnu'alah");
+    client.guilds.array()[0].channels.get(mainChannelId).send("Ishnu'alah");
 
 });
 
