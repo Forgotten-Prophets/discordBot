@@ -12,5 +12,8 @@
     "mongodb": "latest",
     "request": "latest",
     "stream-to-mongo-db": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
